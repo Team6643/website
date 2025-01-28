@@ -31,11 +31,11 @@ const Root = (props: ParentProps) => {
                 <img src={responsiveOpen() ? close : chevronDown} alt="toggle menu" class="w-[20px] lg:hidden" /></div>
             </div>
             <div class={`justify-start items-center flex-grow-0 flex-shrink-0 relative gap-10 flex-col lg:flex-row ${responsiveOpen() ? "flex" : "hidden lg:flex"}`}>
-              <NavItem href="/">Home</NavItem>
-              <NavItem href="/about">About</NavItem>
-              <NavItem href="/sponsors">Sponsors</NavItem>
-              <NavItem href="/fll">FLL</NavItem>
-              <NavItem href="/contact">Contact us</NavItem>
+              <NavItem href="/" onClick={() => setResponsiveOpen(false)}>Home</NavItem>
+              <NavItem href="/about" onClick={() => setResponsiveOpen(false)}>About</NavItem>
+              <NavItem href="/sponsors" onClick={() => setResponsiveOpen(false)}>Sponsors</NavItem>
+              <NavItem href="/fll" onClick={() => setResponsiveOpen(false)}>FLL</NavItem>
+              <NavItem href="/contact" onClick={() => setResponsiveOpen(false)}>Contact us</NavItem>
               <Button onClick={logIn}>Log in</Button>
             </div>
           </div>
