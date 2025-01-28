@@ -1,20 +1,32 @@
+
+import baxterLogo from "../assets/Baxter.svg";
+import dpiLogo from "../assets/DPI.svg";
+import educatorsLogo from "../assets/Educators.svg";
+
+
 const Sponsors = () => {
     return (
         <>
-            <h1>Sponsors</h1>
-            <p>
-                Our team is extremely grateful for the support of our sponsors. We are proud to be sponsored by the following people and organizations.
-            </p>
-            <p>
-                If you are interested in sponsoring our team, please contact us at
-            </p>
+            <div class="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 gap-2.5 py-8">
+                <div class="flex flex-col items-center max-w-5xl text-center gap-4">
+                <h1 class="text-4xl font-bold">Sponsors</h1>
+                <p>
+                    Our team is extremely grateful for the support of our sponsors. We are proud to be sponsored by the following people and organizations.
+                </p>
+                <p>
+                    If you are interested in sponsoring our team, please contact us at <a class="text-[#4b3995] underline" href="mailto:contact@team6643.org">contact@team6643.org</a>.
+                </p>
+                <p>
+                    Alternatively, you can donate to our team by visiting the <a class="text-[#4b3995] underline" href="https://racine.revtrak.net/donations/rusd-financial-donations/">Racine Unified School District financial donations page</a> and typing "Walden III High School Robotics" in the "Organization" field.
+                </p></div>
+            </div>
 
             <div class="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 gap-2.5 py-8 bg-[#afdfff]">
                 <div class="flex flex-col justify-start items-center flex-grow-0 flex-shrink-0 relative gap-10">
                     <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Platinum Bolt
                     </p>
-                    <div class="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
+                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
                         
                         <p>
                             None yet! Be the first to sponsor us at the Platinum Bolt level.
@@ -27,10 +39,11 @@ const Sponsors = () => {
                     <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Zirconium Bolt
                     </p>
-                    <div class="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
+                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
                         
                         <p>
-                            None yet! Be the first to sponsor us at the Platinum Bolt level.
+                            
+                            <a href="https://www.baxter.com/"><img src={baxterLogo} alt="baxter logo" class="w-[418px] h-[72px]" /></a>
                         </p>
                     </div>
                 </div>
@@ -40,10 +53,10 @@ const Sponsors = () => {
                     <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Titanium Bolt
                     </p>
-                    <div class="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
+                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
                         
                         <p>
-                            None yet! Be the first to sponsor us at the Platinum Bolt level.
+                            <a href="https://dpi.wi.gov/stem/grants/robotic-league"><img src={dpiLogo} alt="dpi logo" class="w-[571px] h-[138px]" /></a>
                         </p>
                     </div>
                 </div>
@@ -53,10 +66,10 @@ const Sponsors = () => {
                     <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Silver Bolt
                     </p>
-                    <div class="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
+                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
                         
                         <p>
-                            None yet! Be the first to sponsor us at the Platinum Bolt level.
+                            <a href="https://www.ecu.com/"><img src={educatorsLogo} alt="ecu logo" class="h-[72px]" /></a>
                         </p>
                     </div>
                 </div>
@@ -66,10 +79,10 @@ const Sponsors = () => {
                     <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Chromium Bolt
                     </p>
-                    <div class="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
+                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
                         
-                        <p>
-                            None yet! Be the first to sponsor us at the Platinum Bolt level.
+                        <p class="text-center">
+                            TODO
                         </p>
                     </div>
                 </div>
@@ -79,10 +92,10 @@ const Sponsors = () => {
                     <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Iron Bolt
                     </p>
-                    <div class="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
+                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
                         
                         <p>
-                            None yet! Be the first to sponsor us at the Platinum Bolt level.
+                            TODO
                         </p>
                     </div>
                 </div>

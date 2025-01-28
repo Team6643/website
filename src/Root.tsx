@@ -12,7 +12,7 @@ const Root = (props: ParentProps) => {
     }
     return (
         <>
-        <div class="flex flex-col justify-start items-center overflow-hidden gap-[120px] bg-[#f9f0ff]">
+        <div class="flex flex-col justify-start items-center overflow-hidden bg-[#f9f0ff]">
         <div class="flex justify-between items-center self-stretch flex-grow-0 flex-shrink-0 px-5 py-2.5">
           <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[18px]">
             <img src={teamLogo} alt="team logo" class="w-[67] h-[68px]" />
