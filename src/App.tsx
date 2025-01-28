@@ -1,6 +1,5 @@
 
-import Button from "./components/Button";
-import { Route, Router, useNavigate } from "@solidjs/router";
+import { Route, Router } from "@solidjs/router";
 import Root from "./Root";
 import Home from "./routes/Home";
 import NotFound from "./routes/NotFound";

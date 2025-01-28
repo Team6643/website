@@ -5,11 +5,11 @@ import dpiLogo from "../assets/DPI.svg";
 const Home = () => {
     return (
         <>
-            <div class="flex justify-start items-start flex-grow-0 flex-shrink-0 w-[1208px] relative gap-[90px] my-32">
-                <div class="flex-grow-0 flex-shrink-0 w-[562px] h-[348px] bg-[#d9d9d9] rounded-xl" />
-                <div class="flex flex-col justify-start items-start flex-grow overflow-hidden gap-[50px]">
+            <div class="grid grid-cols-2 justify-start items-start flex-grow-0 flex-shrink-0 relative gap-[90px] my-32 px-10">
+                <div class="flex-grow-0 flex-shrink-0 max-w-[560px] h-[350px] bg-[#d9d9d9] rounded-xl col-span-2 lg:col-span-1" />
+                <div class="flex flex-col justify-start items-start flex-grow overflow-hidden gap-[50px] col-span-2 lg:col-span-1">
                     <div class="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-2">
-                        <p class="self-stretch flex-grow-0 flex-shrink-0 text-[64px] font-medium text-left text-black">
+                        <p class="self-stretch flex-grow-0 flex-shrink-0 text-[64px] leading-16 font-medium text-left text-black">
                             2025 FRC season kicks off
                         </p>
                         <p class="self-stretch flex-grow-0 flex-shrink-0 text-2xl text-left text-black">
@@ -25,10 +25,10 @@ const Home = () => {
                     <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Top sponsors
                     </p>
-                    <div class="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
-                        <a href="https://dpi.wi.gov/stem/grants/robotic-league"><img src={dpiLogo} alt="dpi logo" class="w-[571px] h-[138px]" /></a>
+                    <div class="grid grid-cols-2 justify-start items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
+                        <a href="https://dpi.wi.gov/stem/grants/robotic-league" class="col-span-2 lg:col-span-1 flex justify-center"><img src={dpiLogo} alt="dpi logo" class="w-[571px] h-[138px]" /></a>
                             
-                        <a href="https://www.baxter.com/"><img src={baxterLogo} alt="baxter logo" class="w-[418px] h-[72px]" /></a>
+                        <a href="https://www.baxter.com/" class="col-span-2 lg:col-span-1 flex justify-center"><img src={baxterLogo} alt="baxter logo" class="w-[418px] h-[72px]" /></a>
                     </div>
                     <Button>See more</Button>
                 </div>

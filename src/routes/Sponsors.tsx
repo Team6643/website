@@ -7,7 +7,7 @@ import educatorsLogo from "../assets/Educators.svg";
 const Sponsors = () => {
     return (
         <>
-            <div class="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 gap-2.5 py-8">
+            <div class="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 gap-2.5 py-8 px-5">
                 <div class="flex flex-col items-center max-w-5xl text-center gap-4">
                 <h1 class="text-4xl font-bold">Sponsors</h1>
                 <p>
