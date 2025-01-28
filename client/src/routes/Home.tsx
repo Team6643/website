@@ -7,11 +7,11 @@ const Home = () => {
     const navigate = useNavigate();
     return (
         <>
-            <div class="grid grid-cols-2 justify-start items-start flex-grow-0 flex-shrink-0 relative gap-[90px] my-32 px-10 max-w-[1500px]">
+            <div class="grid grid-cols-2 justify-start items-start flex-grow-0 flex-shrink-0 relative gap-[50px] my-16 lg:my-32 px-10 max-w-[1500px]">
                 <div class="flex-grow-0 flex-shrink-0 max-w-[560px] h-[350px] bg-[#d9d9d9] rounded-xl col-span-2 lg:col-span-1" />
                 <div class="flex flex-col justify-start items-start flex-grow overflow-hidden gap-[50px] col-span-2 lg:col-span-1">
                     <div class="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-2">
-                        <p class="self-stretch flex-grow-0 flex-shrink-0 text-[64px] leading-16 font-medium text-left text-black">
+                        <p class="self-stretch flex-grow-0 flex-shrink-0 lg:text-[64px] text-5xl leading-16 font-medium text-left text-black">
                             2025 FRC season kicks off
                         </p>
                         <p class="self-stretch flex-grow-0 flex-shrink-0 text-2xl text-left text-black">
@@ -35,7 +35,7 @@ const Home = () => {
                     <Button onClick={() => navigate("/sponsors")}>See more</Button>
                 </div>
             </div>
-            <div class="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-5 my-32 px-5">
+            <div class="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-5 my-16 lg:my-32 px-5">
                 <p class="flex-grow-0 flex-shrink-0 text-4xl font-bold text-left text-black">About us</p>
                 <p class="flex-grow-0 flex-shrink-0 max-w-[600px] text-xl text-center text-black">
                     We are a student-led organization working to drive positive change in the world by introducing
