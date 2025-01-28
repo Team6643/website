@@ -1,7 +1,7 @@
 
-import baxterLogo from "../assets/Baxter.svg";
-import dpiLogo from "../assets/DPI.svg";
-import educatorsLogo from "../assets/Educators.svg";
+import baxterLogo from "../assets/baxter.svg";
+import dpiLogo from "../assets/dpi.svg";
+import educatorsLogo from "../assets/educators.svg";
 
 
 const Sponsors = () => {

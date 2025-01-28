@@ -1,6 +1,6 @@
 import Button from "../components/Button";
-import baxterLogo from "../assets/Baxter.svg";
-import dpiLogo from "../assets/DPI.svg";
+import baxterLogo from "../assets/baxter.svg";
+import dpiLogo from "../assets/dpi.svg";
 
 const Home = () => {
     return (
