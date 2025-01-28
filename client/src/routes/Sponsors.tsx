@@ -26,9 +26,9 @@ const Sponsors = () => {
                     <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Platinum Bolt
                     </p>
-                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
+                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px] px-5">
                         
-                        <p>
+                        <p class="text-center">
                             None yet! Be the first to sponsor us at the Platinum Bolt level.
                         </p>
                     </div>
@@ -39,7 +39,7 @@ const Sponsors = () => {
                     <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Zirconium Bolt
                     </p>
-                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
+                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px] px-5">
                         
                         <p>
                             
@@ -53,7 +53,7 @@ const Sponsors = () => {
                     <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Titanium Bolt
                     </p>
-                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
+                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px] px-5">
                         
                         <p>
                             <a href="https://dpi.wi.gov/stem/grants/robotic-league"><img src={dpiLogo} alt="dpi logo" class="w-[571px] h-[138px]" /></a>
@@ -66,7 +66,7 @@ const Sponsors = () => {
                     <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Silver Bolt
                     </p>
-                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
+                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px] px-5">
                         
                         <p>
                             <a href="https://www.ecu.com/"><img src={educatorsLogo} alt="ecu logo" class="h-[72px]" /></a>
@@ -79,7 +79,7 @@ const Sponsors = () => {
                     <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Chromium Bolt
                     </p>
-                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
+                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px] px-5">
                         
                         <p class="text-center">
                             TODO
@@ -92,7 +92,7 @@ const Sponsors = () => {
                     <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Iron Bolt
                     </p>
-                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px]">
+                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px] px-5">
                         
                         <p>
                             TODO

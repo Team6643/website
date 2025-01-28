@@ -101,8 +101,8 @@ const Root = (props: ParentProps) => {
                     </div>
                   </div>
                   <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 h-[81px] relative gap-[5px]">
-                    <p class="flex-grow-0 flex-shrink-0 w-[123px] h-[26px] text-xl font-bold text-left text-white">
-                      <span class="flex-grow-0 flex-shrink-0 w-[123px] h-[26px] text-xl font-bold text-left text-white">
+                    <p class="flex-grow-0 flex-shrink-0 text-xl font-bold text-left text-white">
+                      <span class="flex-grow-0 flex-shrink-0 text-xl font-bold text-left text-white">
                         Stay tuned!
                       </span>
                       <br />
