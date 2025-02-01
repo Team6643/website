@@ -2,6 +2,14 @@
 import baxterLogo from "../assets/baxter.svg";
 import dpiLogo from "../assets/dpi.svg";
 import educatorsLogo from "../assets/educators.svg";
+import caseysLogo from "../assets/caseys.svg";
+import northwesternMutualLogo from "../assets/northwestern-mutual.svg";
+import scjLogo from "../assets/scj.svg";
+import firstWisconsinLogo from "../assets/first-wisconsin.svg";
+import hcbLogo from "../assets/hcb.svg";
+import modineLogo from "../assets/modine.svg";
+import ppgLogo from "../assets/ppg.svg";
+import Sponsor from "../components/Sponsor";
 
 
 const Sponsors = () => {
@@ -21,85 +29,86 @@ const Sponsors = () => {
                 </p></div>
             </div>
 
-            <div class="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 gap-2.5 py-8 bg-[#afdfff]">
-                <div class="flex flex-col justify-start items-center flex-grow-0 flex-shrink-0 relative gap-10">
-                    <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
-                        Platinum Bolt
-                    </p>
-                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px] px-5">
-                        
-                        <p class="text-center">
-                            None yet! Be the first to sponsor us at the Platinum Bolt level.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 gap-2.5 py-8 bg-[#fff7af]">
-                <div class="flex flex-col justify-start items-center flex-grow-0 flex-shrink-0 relative gap-10">
-                    <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
-                        Zirconium Bolt
-                    </p>
-                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px] px-5">
-                        
-                        <p>
-                            
-                            <a href="https://www.baxter.com/"><img src={baxterLogo} alt="baxter logo" class="w-[418px] h-[72px]" /></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 gap-2.5 py-8 bg-[#929292]">
-                <div class="flex flex-col justify-start items-center flex-grow-0 flex-shrink-0 relative gap-10">
-                    <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
-                        Titanium Bolt
-                    </p>
-                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px] px-5">
-                        
-                        <p>
-                            <a href="https://dpi.wi.gov/stem/grants/robotic-league"><img src={dpiLogo} alt="dpi logo" class="w-[571px] h-[138px]" /></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 gap-2.5 py-8 bg-[#d8d8d8]">
-                <div class="flex flex-col justify-start items-center flex-grow-0 flex-shrink-0 relative gap-10">
-                    <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
-                        Silver Bolt
-                    </p>
-                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px] px-5">
-                        
-                        <p>
-                            <a href="https://www.ecu.com/"><img src={educatorsLogo} alt="ecu logo" class="h-[72px]" /></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 gap-2.5 py-8 bg-[#eeeeee]">
-                <div class="flex flex-col justify-start items-center flex-grow-0 flex-shrink-0 relative gap-10">
-                    <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
-                        Chromium Bolt
-                    </p>
-                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px] px-5">
-                        
-                        <p class="text-center">
-                            TODO
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 gap-2.5 py-8 bg-[#ffffff]">
-                <div class="flex flex-col justify-start items-center flex-grow-0 flex-shrink-0 relative gap-10">
-                    <p class="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
-                        Iron Bolt
-                    </p>
-                    <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 relative gap-[100px] px-5">
-                        
-                        <p>
-                            TODO
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <Sponsor tier="Platinum" sponsors={
+                []
+            } />
+            <Sponsor tier="Zirconium" sponsors={
+                [
+                    {
+                        name: "Baxter",
+                        logo: baxterLogo,
+                        link: "https://www.baxter.com/"
+                    },
+                ]
+            } />
+            <Sponsor tier="Titanium" sponsors={
+                [
+                    {
+                        name: "DPI",
+                        logo: dpiLogo,
+                        link: "https://dpi.wi.gov/stem/grants/robotic-league"
+                    },
+                ]
+            } />
+            <Sponsor tier="Silver" sponsors={
+                [
+                    {
+                        name: "Educators Credit Union",
+                        logo: educatorsLogo,
+                        link: "https://www.ecu.com/"
+                    },
+                    {
+                        name: "FIRST Wisconsin",
+                        logo: firstWisconsinLogo,
+                        link: "https://www.firstinspireswi.org/"
+                    },
+                    {
+                        name: "HCB",
+                        logo: hcbLogo,
+                        link: "https://hackclub.com/fiscal-sponsorship/"
+                    },
+                    {
+                        name: "PPG Industries",
+                        logo: ppgLogo,
+                        link: "https://www.ppg.com/"
+                    },
+                    {
+                        name: "Modine Manufacturing",
+                        logo: modineLogo,
+                        link: "https://www.modine.com/"
+                    },
+                ]
+            } />
+            <Sponsor tier="Chromium" sponsors={
+                [
+                    {
+                        name: "Amy Bigna",
+                    },
+                    {
+                        name: "Northwestern Mutual",
+                        logo: northwesternMutualLogo,
+                        link: "https://www.northwesternmutual.com/"
+                    },
+                    {
+                        name: "SC Johnson",
+                        logo: scjLogo,
+                        link: "https://www.scjohnson.com/"
+                    },
+                ]
+            } />
+            <Sponsor tier="Iron" sponsors={
+                [
+                    {
+                        name: "Casey's General Store",
+                        logo: caseysLogo,
+                        link: "https://www.caseys.com/"
+                    },
+                    {
+                        name: "Findorff",
+                        link: "https://findorff.com/"
+                    }
+                ]
+            } />
         </>
     );
 };
