@@ -11,7 +11,7 @@ import modineLogo from "../assets/modine.svg";
 import ppgLogo from "../assets/ppg.svg";
 import weLogo from "../assets/we.svg";
 import Sponsor from "../components/Sponsor";
-
+import findorffLogo from "../assets/findorff.svg";
 
 const Sponsors = () => {
     return (
@@ -111,6 +111,7 @@ const Sponsors = () => {
                     },
                     {
                         name: "Findorff",
+                        logo: findorffLogo,
                         link: "https://findorff.com/"
                     }
                 ]
