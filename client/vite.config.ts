@@ -4,4 +4,8 @@ import solid from "vite-plugin-solid";
 
 export default defineConfig({
   plugins: [tailwindcss(), solid()],
+  assetsInclude: ["**/*.md"],
+  optimizeDeps: {
+    include: ["solid-markdown > micromark", "solid-markdown > unified"],
+  },
 });

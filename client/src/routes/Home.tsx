@@ -2,24 +2,25 @@ import Button from "../components/Button";
 import baxterLogo from "../assets/baxter.svg";
 import dpiLogo from "../assets/dpi.svg";
 import { useNavigate } from "@solidjs/router";
+import homeImage from "../assets/image1.jpg";
 
 const Home = () => {
     const navigate = useNavigate();
     return (
         <>
             <div class="grid grid-cols-2 justify-start items-start flex-grow-0 flex-shrink-0 relative gap-[50px] my-16 lg:my-32 px-10 max-w-[1500px]">
-                <div class="flex-grow-0 flex-shrink-0 max-w-[560px] h-[350px] bg-[#d9d9d9] rounded-xl col-span-2 lg:col-span-1" />
+                <img class="flex-grow-0 flex-shrink-0 max-w-[560px] h-[350px] bg-[#d9d9d9] rounded-xl col-span-2 lg:col-span-1" src={homeImage} />
                 <div class="flex flex-col justify-start items-start flex-grow overflow-hidden gap-[50px] col-span-2 lg:col-span-1">
                     <div class="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-2">
                         <p class="self-stretch flex-grow-0 flex-shrink-0 lg:text-[64px] text-5xl leading-16 font-medium text-left text-black">
-                            2025 FRC season kicks off
+                            Phantom Lakes Regional
                         </p>
                         <p class="self-stretch flex-grow-0 flex-shrink-0 text-2xl text-left text-black">
                             {/* This content is currently being updated. Please check back later. */}
-                            This content is coming soon. Please check back later.
+                            30 March 2025
                         </p>
                     </div>
-                    <Button>Learn more</Button>
+                    <Button onClick={() => navigate("/blog/2025-03-phantom-regional")}>Learn more</Button>
                 </div>
             </div>
             <div class="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 gap-2.5 py-8 bg-[#d4c6ff] px-5">

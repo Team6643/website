@@ -7,19 +7,21 @@ import chevronDown from "./assets/chevron-down.svg";
 import close from "./assets/close.svg";
 import instagramLogo from "./assets/instagram.svg";
 import facebookLogo from "./assets/facebook.svg";
+import { useNavigate } from "@solidjs/router";
 
 const Root = (props: ParentProps) => {
     const logIn = () => {
       location.href = "https://launchpad.37signals.com/bc3/5808606/signin";
     }
     const [responsiveOpen, setResponsiveOpen] = createSignal(false);
+    const navigate = useNavigate();
     return (
         <>
           <div class="flex flex-col justify-start items-center overflow-hidden bg-[#f9f0ff]">
           <div class="flex justify-between items-center self-stretch flex-grow-0 flex-shrink-0 px-5 py-2.5 flex-col lg:flex-row">
             <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[18px]">
               <img src={teamLogo} alt="team logo" class="w-[67] h-[68px]" />
-              <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative">
+              <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative select-none cursor-pointer" onClick={() => navigate("/")}>
                 <p class="self-stretch flex-grow-0 flex-shrink-0 text-2xl font-semibold text-left text-[#4b3995]">
                   Walnuts and Bolts
                 </p>

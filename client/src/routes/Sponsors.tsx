@@ -9,6 +9,7 @@ import firstWisconsinLogo from "../assets/first-wisconsin.svg";
 import hcbLogo from "../assets/hcb.svg";
 import modineLogo from "../assets/modine.svg";
 import ppgLogo from "../assets/ppg.svg";
+import weLogo from "../assets/we.svg";
 import Sponsor from "../components/Sponsor";
 
 
@@ -94,6 +95,11 @@ const Sponsors = () => {
                         logo: scjLogo,
                         link: "https://www.scjohnson.com/"
                     },
+                    {
+                        name: "WE Energies",
+                        logo: weLogo,
+                        link: "https://www.we-energies.com/"
+                    }
                 ]
             } />
             <Sponsor tier="Iron" sponsors={
